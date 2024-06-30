@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import QRCode from "qrcode";
 import { saveAs } from "file-saver";
 
-export default function Home() {
+export default function HomePage() {
   const [url, setUrl] = useState<string>("");
   const [src, setSrc] = useState<string>("");
 
